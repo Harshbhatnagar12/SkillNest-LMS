@@ -4,11 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import { AppContextProvider } from './context/AppContect.jsx'
 import { BrowserRouter } from 'react-router-dom'
-import { ClerkProvider } from '@clerk/react'
+import { ClerkProvider } from '@clerk/clerk-react'
+
+const PUBLISHABLE_KEY = import.meta.env.VITE_PUBLISHABLE_KEY
+
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <ClerkProvider Publishablekey = {PUBLISHABLE_KEY} afterSignOutUrl='/'>
+    <ClerkProvider publishableKey = {PUBLISHABLE_KEY} afterSignOutUrl='/'>
   <AppContextProvider>
     <App />
   </AppContextProvider>

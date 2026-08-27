@@ -292,7 +292,7 @@ export const dummyCourses = [
         "updatedAt": "2025-01-02T04:47:44.701Z",
         "__v": 4,
         "courseThumbnail": "https://img.youtube.com/vi/CBWnBi-awSA/maxresdefault.jpg"
-    },
+    }, //1
     {
         "_id": "675ac1512100b91a6d9b8b24",
         "courseTitle": "Advanced Python Programming",
@@ -364,7 +364,7 @@ export const dummyCourses = [
         "updatedAt": "2025-01-02T06:47:54.446Z",
         "__v": 3,
         "courseThumbnail": "https://img.youtube.com/vi/HdLIMoQkXFA/maxresdefault.jpg"
-    },
+    }, //2
     {
         "_id": "605c72efb3f1c2b1f8e4e1ae",
         "courseTitle": "Cybersecurity Basics",
@@ -430,7 +430,7 @@ export const dummyCourses = [
         "updatedAt": "2024-12-31T04:14:49.773Z",
         "__v": 2,
         "courseThumbnail": "https://img.youtube.com/vi/jZFaMEqEqEQ/maxresdefault.jpg"
-    },
+    },//3
     {
         "_id": "605c72efb3f1c2b1f8e4e1a7",
         "courseTitle": "Web Development Bootcamp",
@@ -496,7 +496,7 @@ export const dummyCourses = [
         "updatedAt": "2024-12-31T05:31:27.290Z",
         "__v": 2,
         "courseThumbnail": "https://img.youtube.com/vi/lpx2zFkapIk/maxresdefault.jpg"
-    },
+    }, //4
     {
         "_id": "605c72efb3f1c2b1f8e4e1ac",
         "courseTitle": "Cloud Computing Essentials",
@@ -561,7 +561,7 @@ export const dummyCourses = [
         "updatedAt": "2024-12-31T05:32:55.357Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/0yboGn8errU/maxresdefault.jpg"
-    },
+    },  // 5
     {
         "_id": "605c72efb3f1c2b1f8e4e1ad",
         "courseTitle": "Data Science with Python",
@@ -634,7 +634,7 @@ export const dummyCourses = [
         "updatedAt": "2024-12-31T09:57:48.992Z",
         "__v": 3,
         "courseThumbnail": "https://img.youtube.com/vi/E4znbZgUWzA/maxresdefault.jpg"
-    },
+    },//6
     {
         "_id": "605c72efb3f1c2b1f8e4e1aa",
         "courseTitle": "Data Science and Machine Learning",
@@ -699,7 +699,7 @@ export const dummyCourses = [
         "updatedAt": "2025-01-02T06:53:59.753Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/631lFJdQvoo/maxresdefault.jpg"
-    },
+    },//7
     {
         "_id": "605c72efb3f1c2b1f8e4e1ab",
         "courseTitle": "Introduction to Cybersecurity",
@@ -764,5 +764,5 @@ export const dummyCourses = [
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/WbV3zRgpw_E/maxresdefault.jpg"
-    }
+    }//8
 ]
