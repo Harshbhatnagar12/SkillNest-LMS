@@ -19,6 +19,9 @@
   /* default */
   --text-default: 15px;
   --text-default--line-height: 21px;
+
+   /* grid template columns */
+  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 *{
