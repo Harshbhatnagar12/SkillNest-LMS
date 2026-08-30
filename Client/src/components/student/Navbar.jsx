@@ -37,7 +37,7 @@ const Navbar = () => {
             </>
           )}
         </div>
-          <Link className="cursor-pointer" to="/my-enrollments">  My Enrollments</Link>
+          <Link className="cursor-pointer" to="/my-enrollments"> | My Enrollments</Link>
         {user ? (
           <UserButton />
         ) : (

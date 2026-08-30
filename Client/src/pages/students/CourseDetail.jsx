@@ -64,7 +64,7 @@ const CourseDetail = () => {
                     <div key={index} className='border border-grey-300 bg-white mb-2 rounded'>
                      <div className='flex items-center justify-between px-4 py-3 cursor-pointer select-none' onClick={()=> toggleSection(index)}>
                       <div className='flex items-center gap-2 '>
-                        <img className={`transform transition-transform ${openSection[index] ? 'rorate-180' : '' }`} src={assets.down_arrow_icon} alt="down-arrow-icon" />
+                        <img className={`transform transition-transform ${openSection[index] ? 'rotate-180' : '' }`} src={assets.down_arrow_icon} alt="down-arrow-icon" />
                         <p className='font-medium md:text-base text-sm '>{chapter.chapterTitle}</p>
                       </div>
                       <p className='text-sm md:text-default '>{chapter.chapterContent.length} lectures - {calculateChapterTime(chapter)}</p>
@@ -104,8 +104,8 @@ const CourseDetail = () => {
       </div>
 
       {/* Right column  */}
-       <div className='max-w-106 z-10 shadow-0px 4px 15px 2px rgba(0,0,0,0.1) rounded-t md:rounded-none overflow-hidden bg-white min-w-75 sm:min-w-105'>
-         {playerData ?  <YouTube videoId={playerData.videoId} opts={{playerVars: {autoplay:1}}} iframeClassName='w-full aspect-video'/>   : <img className='w-3.5 ' src={courseData.courseThumbnail} alt="time_left_clock_icon" />
+       <div className='max-w-106 z-10 shadow-[0px_4px_15px_2px_rgba(0,0,0,0.1)] rounded-t md:rounded-none overflow-hidden bg-white min-w-75 sm:min-w-105'>
+         {playerData ?  <YouTube videoId={playerData.videoId} opts={{playerVars: {autoplay:1}}} iframeClassName='w-full aspect-video'/>   : <img src={courseData.courseThumbnail} alt="time_left_clock_icon" />
 }
           <img src={courseData.courseThumbnail} alt="courseThumbnail" />
           <div className='p-5 '>
@@ -114,7 +114,7 @@ const CourseDetail = () => {
             <p className='text-red-500'> <span className='font-medium'>5 days</span> left at this price!</p>
            </div>
            <div className='flex gap-3 items-center pt-2 '>
-            <p className='text-gray-800 md:text-4xl text-2xl font-semibold'> {currency} {(courseData.corsePrice - courseData.discount * courseData.coursePrice / 100).toFixed(2)} </p>
+            <p className='text-gray-800 md:text-4xl text-2xl font-semibold'> {currency} {(courseData.coursePrice - courseData.discount * courseData.coursePrice / 100).toFixed(2)} </p>
             <p className='md:text-lg text-gray-500 line-through'>{currency}{courseData.coursePrice}</p>
             <p className='md:text-lg text-gray-500'>{courseData.discount}% off</p>
            </div>
