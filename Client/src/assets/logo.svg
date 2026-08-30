@@ -1,25 +1,18 @@
-<svg width="820" height="200" viewBox="0 0 820 200" xmlns="http://www.w3.org/2000/svg" font-family="'Poppins', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<svg width="680" height="260" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg">
+<title>SkillNest logo and icon</title>
+<desc>A blue nest-shaped icon with an upward growth spark, next to the wordmark SkillNest.</desc>
 
-  <!-- Badge: bg-blue-600 -->
-  <circle cx="100" cy="100" r="90" fill="#2563EB"/>
+<g transform="translate(60,50)">
+<circle cx="80" cy="80" r="80" fill="#e0edff"/>
+<path d="M20 100 Q40 130 80 135 Q120 130 140 100" fill="none" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round"/>
+<path d="M30 85 Q45 115 80 120 Q115 115 130 85" fill="none" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+<path d="M42 70 Q55 98 80 103 Q105 98 118 70" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round"/>
+<path d="M80 100 L80 50" stroke="#1e3a8a" stroke-width="6" stroke-linecap="round"/>
+<path d="M80 50 L64 66 M80 50 L96 66" stroke="#1e3a8a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="80" cy="42" r="8" fill="#1e3a8a"/>
+</g>
 
-  <g transform="translate(100,102)">
-    <!-- open book: darker blue tones -->
-    <path d="M0,-8 C-30,-24 -55,-20 -55,-20 L-55,26 C-55,26 -30,20 0,36 Z" fill="#172554"/>
-    <path d="M0,-8 C30,-24 55,-20 55,-20 L55,26 C55,26 30,20 0,36 Z" fill="#1E3A8A"/>
-    <!-- spine -->
-    <rect x="-3" y="-10" width="6" height="46" fill="#0F172A"/>
-    <!-- graduation cap above -->
-    <g transform="translate(0,-46)">
-      <polygon points="0,-14 34,0 0,14 -34,0" fill="#BFDBFE"/>
-      <rect x="-3" y="0" width="6" height="14" fill="#BFDBFE"/>
-      <circle cx="0" cy="16" r="4" fill="#BFDBFE"/>
-    </g>
-  </g>
-
-  <!-- Wordmark -->
-  <text x="222" y="128" font-size="72" font-weight="700" letter-spacing="1">
-    <tspan fill="#16233F">COURSE</tspan><tspan fill="#2563EB">HUB</tspan>
-  </text>
+<text x="260" y="130" font-family="sans-serif" font-size="56" font-weight="500" fill="#1d4ed8">Skill<tspan fill="#1e3a8a">Nest</tspan></text>
+<text x="262" y="165" font-family="sans-serif" font-size="16" fill="#3b82f6">Grow your skills, one nest at a time</text>
 
 </svg>

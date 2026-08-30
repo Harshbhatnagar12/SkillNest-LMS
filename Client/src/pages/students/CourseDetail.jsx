@@ -4,7 +4,7 @@ import { AppContext } from '../../context/AppContect'
 import Loading from '../../components/student/Loading'
 import { assets } from '../../assets/assets'
 import humanizeDuration from 'humanize-duration'
-import Footer from '../../components/educator/Footer'
+import Footer from '../../components/student/Footer'
 import YouTube from 'react-youtube'
 
 const CourseDetail = () => {
@@ -26,7 +26,7 @@ const CourseDetail = () => {
 
   useEffect(()=>{
    fetchCourseData()
-  },[])
+  },[allCourses])
 
   const toggleSection = (index)=>{
    setOpenSections((prev)=>(
@@ -138,7 +138,7 @@ const CourseDetail = () => {
            </div>
 
            </div>
-           <button className='md:mt-6 mt-4 w-full py-3 rounded bg-blue-600 text-white font-medium'>{isAlreadyEnrolled ? 'Already Enrolled' : 'Enroll Now'}</button>
+           <button className='md:mt-6 mt-4 w-full py-3 rounded bg-blue-600 text-white font-medium cursor-pointer'>{isAlreadyEnrolled ? 'Already Enrolled' : 'Enroll Now'}</button>
 
            <div className='pt-6 '>
             <p className='md:text-xl text-lg font-medium text-gray-800'>What's in the course?</p>

@@ -20,10 +20,10 @@ const Navbar = () => {
         onClick={() => navigate("/")}
         src={assets.logo}
         alt="Logo"
-        className="w-28 lg:w-32 cursor-pointer "
+        className="w-42 lg:w-42 cursor-pointer "
       />
       <div className="hidden md:flex items-center gap-5 text-gray-500">
-        <div className="py-2 flex items-center gap-5 ">
+        <div className="py-2 flex items-center gap-5 hidden">
           {user && (
             <>
               <button className="cursor-pointer"
@@ -34,10 +34,10 @@ const Navbar = () => {
                 
                 {isEducator ? "Educator Dashboard" : "Become educator"}
               </button>
-              <Link className="cursor-pointer" to="/my-enrollments"> | My Enrollments</Link>
             </>
           )}
         </div>
+          <Link className="cursor-pointer" to="/my-enrollments">  My Enrollments</Link>
         {user ? (
           <UserButton />
         ) : (
