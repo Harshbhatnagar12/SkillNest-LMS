@@ -23,7 +23,7 @@ const Navbar = () => {
         className="w-42 lg:w-42 cursor-pointer "
       />
       <div className="hidden md:flex items-center gap-5 text-gray-500">
-        <div className="py-2 flex items-center gap-5 hidden">
+        <div className="py-2 flex items-center gap-5 ">
           {user && (
             <>
               <button className="cursor-pointer"
@@ -34,10 +34,10 @@ const Navbar = () => {
                 
                 {isEducator ? "Educator Dashboard" : "Become educator"}
               </button>
+              <Link className="cursor-pointer" to="/my-enrollments"> | My Enrollments</Link>
             </>
           )}
         </div>
-          <Link className="cursor-pointer" to="/my-enrollments"> | My Enrollments</Link>
         {user ? (
           <UserButton />
         ) : (
