@@ -1,0 +1,31 @@
+[33mcommit f2cd01a624a4165307d7d59a7d78ef55534f8605[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Harshbhatnagar12 <harshbhatnagar20222@gmail.com>
+Date:   Thu Sep 17 17:36:18 2026 +0530
+
+    add netlify redirects, ignore dist folder
+
+ Client/.env                                    |   2 [32m++[m
+ Client/.gitignore                              | Bin [31m18[m -> [32m30[m bytes
+ Client/dist/assets/abhishek-DaoladSa.JPG       | Bin [31m0[m -> [32m669033[m bytes
+ Client/dist/assets/accenture_logo-C2wm6fZ5.svg |   9 [32m+++++++++[m
+ Client/dist/assets/adobe_logo-C7DVnuZE.svg     |   9 [32m+++++++++[m
+ Client/dist/assets/course_1-DEvEL12q.png       | Bin [31m0[m -> [32m487647[m bytes
+ Client/dist/assets/course_2-GZeLwGVa.png       | Bin [31m0[m -> [32m438773[m bytes
+ Client/dist/assets/course_3-9LY0eDiW.png       | Bin [31m0[m -> [32m328934[m bytes
+ Client/dist/assets/course_4-xC_zqKhF.png       | Bin [31m0[m -> [32m505932[m bytes
+ Client/dist/assets/index-Dbv8CJhz.js           |  18 [32m++++++++++++++++++[m
+ Client/dist/assets/index-dHCkmoep.css          |   1 [32m+[m
+ Client/dist/assets/microsoft_logo-CJCILJpU.svg |   7 [32m+++++++[m
+ Client/dist/assets/paypal_logo-Y0aMXISO.svg    |   9 [32m+++++++++[m
+ Client/dist/assets/profile_img-CDA3HEEO.png    | Bin [31m0[m -> [32m26232[m bytes
+ Client/dist/assets/profile_img2-Den7nRXg.png   | Bin [31m0[m -> [32m29489[m bytes
+ Client/dist/assets/profile_img3-B8zYiJ1m.png   | Bin [31m0[m -> [32m26080[m bytes
+ Client/dist/assets/profile_img_1-Dt6tBN4k.png  | Bin [31m0[m -> [32m59067[m bytes
+ Client/dist/assets/profile_img_2-CfNsyPT4.png  | Bin [31m0[m -> [32m47162[m bytes
+ Client/dist/assets/profile_img_3-Com7-0_V.png  | Bin [31m0[m -> [32m46204[m bytes
+ Client/dist/assets/shreyansh-CjKLNaGn.JPG      | Bin [31m0[m -> [32m986488[m bytes
+ Client/dist/assets/sktech-Jz2slE9Q.svg         |   3 [32m+++[m
+ Client/dist/assets/walmart_logo-DFg_e5_v.svg   |   4 [32m++++[m
+ Client/dist/index.html                         |  14 [32m++++++++++++++[m
+ Client/src/components/student/Navbar.jsx       |   4 [32m++[m[31m--[m
+ 24 files changed, 78 insertions(+), 2 deletions(-)
